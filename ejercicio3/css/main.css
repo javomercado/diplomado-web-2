@@ -161,7 +161,75 @@ a:hover {
 .col-8 {
     width: 66.66%;
 }
-   
+/*  Table 
+.table {
+	width: 100% ;
+	border: 2px solid #ccc;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+
+}
+.table td{
+	border: 1px solid #ccc;
+	padding: 3px 6px;
+}
+
+.table__head {
+	font-weight: 600;
+	
+}
+
+.table__head td{
+    border-bottom-width: 2px;
+	
+	}
+*/
+
+.table	{
+	width: 100% ;
+	border: 2px solid #ccc;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table th,	
+.table td{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+}
+
+.table thead th{
+	border-bottom-width: 2px;
+}
+
+.table__head {
+	font-weight: 600;
+	
+}
+
+.table th{
+	font-weight:  600;
+}
+
+.table__head td{
+    border-bottom-width: 2px;
+	
+}
+/*
+.table td:nth-child(2),
+.table td:nth-child(3),
+.table td:nth-child(4){
+	text-align: center;
+}
+*/
+.table td:first-child{
+	text-align: left;
+}
+
+
+
 /* Helpers */
 .clearfix:before,
 .clearfix:after {
